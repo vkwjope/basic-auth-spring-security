@@ -8,7 +8,7 @@ public class BasicAuthResource {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello";
+		return "Hello, You are authorized to access the endpoint.";
 	}
 
 }
